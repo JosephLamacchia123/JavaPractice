@@ -19,6 +19,9 @@ public class ExceptionPractice {
 
         /**This is how you create an object from a class.  It's called instantiating an object.
          *  Now we can use the method 'addNumbers' we defined in the class 'ExceptionPractice'.
+         *
+         * The 'new' keyword below combined with the 'Constructor' 'ExceptionPractice()' are what are needed to create an object.
+         *
          **/
         ExceptionPractice practice = new ExceptionPractice();
 
@@ -28,9 +31,6 @@ public class ExceptionPractice {
          * "This is a string" as an argument.
          * **/
         System.out.println(practice.addNumbers(3,8));
-
-
-
 
 
     }
